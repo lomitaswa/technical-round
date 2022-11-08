@@ -1,0 +1,17 @@
+Getting Started
+---------------
+Start the server by running npm start.
+
+Tasks
+-----
+1.The index.html is fetching an array of todos on loading. Update the Todos list with this data 
+  in the format given. The checkbox should be ticked if the 'done' field is true.
+2.Create a backend API endpoint to create a new todo when the form is submitted. The new todo can 
+  be simply added to the in-memory array. There is no database. When the frontend is refreshed, the
+  new todo should be visible. 
+3.When the checkbox is checked/unchecked, update the 'done' field of the todo item in the backend 
+  array.
+4.Show the todos sorted by deadline (closest date first).
+-------------
+5.Can the table be updated on the frontend without refreshing?
+6.What should be done to show only five tasks at a time?
